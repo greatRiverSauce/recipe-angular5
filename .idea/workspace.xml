@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f2fcf79-d26e-47e4-ae6a-61dd3413e7f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/app/recipes/recipes.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/app/shopping-list/shoppinglist.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/app.module.ts" afterPath="$PROJECT_DIR$/my-app/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/recipes/recipe-list/recipe-item/recipe-item.component.ts" afterPath="$PROJECT_DIR$/my-app/src/app/recipes/recipe-list/recipe-item/recipe-item.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/recipes/recipe-list/recipe-list.component.html" afterPath="$PROJECT_DIR$/my-app/src/app/recipes/recipe-list/recipe-list.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/recipes/recipe-list/recipe-list.component.ts" afterPath="$PROJECT_DIR$/my-app/src/app/recipes/recipe-list/recipe-list.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/recipes/recipes.component.html" afterPath="$PROJECT_DIR$/my-app/src/app/recipes/recipes.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/recipes/recipes.component.ts" afterPath="$PROJECT_DIR$/my-app/src/app/recipes/recipes.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-edit/shopping-edit.component.ts" afterPath="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-edit/shopping-edit.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.html" afterPath="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.ts" afterPath="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/shopping-list/shoppinglist.service.ts" afterPath="$PROJECT_DIR$/my-app/src/app/shopping-list/shoppinglist.service.ts" />
     </list>
     <ignored path="recipe-angular5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +27,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="shoppinglist.service.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shoppinglist.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shoppinglist.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping-list.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping-list.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping-edit.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-edit/shopping-edit.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping-edit.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-edit/shopping-edit.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -56,14 +106,10 @@
         <option value="$PROJECT_DIR$/my-app/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/recipes/recipe-list/recipe-item/recipe-item.component.html" />
-        <option value="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-edit/shopping-edit.component.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-edit/shopping-edit.component.html" />
-        <option value="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.html" />
-        <option value="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/recipes/recipe-detail/recipe-detail.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/shared/dropdown.directive.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/header/header.component.html" />
-        <option value="$PROJECT_DIR$/my-app/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/recipes/recipes.service.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/recipes/recipe-list/recipe-item/recipe-item.component.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/recipes/recipe-list/recipe-list.component.html" />
@@ -71,6 +117,11 @@
         <option value="$PROJECT_DIR$/my-app/src/app/recipes/recipes.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/recipes/recipes.component.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/recipes/recipe-detail/recipe-detail.component.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/app/shopping-list/shoppinglist.service.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.html" />
+        <option value="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-edit/shopping-edit.component.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.ts" />
       </list>
     </option>
   </component>
@@ -324,12 +375,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520483949212</updated>
-      <workItem from="1520483950963" duration="12673000" />
+      <workItem from="1520483950963" duration="13238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12673000" />
+    <option name="totallyTimeSpent" value="13238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -417,44 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-edit/shopping-edit.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-edit/shopping-edit.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#95#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="59" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#57#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/app/header/header.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -468,16 +481,6 @@
         <state relative-caret-position="135">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#58#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,10 +574,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shoppinglist.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-edit/shopping-edit.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-edit/shopping-edit.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/shopping-list/shopping-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding />
         </state>
       </provider>
