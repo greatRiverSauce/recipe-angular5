@@ -16,6 +16,18 @@ import { DropdownDirective } from "./shared/dropdown.directive";
 import { RecipeService } from './recipes/recipes.service';
 import { ShoppingListService } from './shopping-list/shoppinglist.service';
 
+import { Routes, RouterModule } from '@angular/router';
+
+const appRoutes: Routes = [
+  {path: '', redirectTo: '/recipes', pathMatch:'full'},
+  {path: 'shoppingList', component: ShoppingListComponent},
+  {path: 'recipes', component: RecipesComponent, children: [
+    {path: '', component:RecipeStartComponent, pathMatch:'full'},
+    {path: 'new', component: RecipeEditComponent},
+    {path: ':id', component:RecipeDetailComponent},
+    {path: ':id/edit', component: RecipeEditComponent}
+  ]}
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +43,8 @@ import { ShoppingListService } from './shopping-list/shoppinglist.service';
     DropdownDirective
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [RecipeService, ShoppingListService],
   bootstrap: [AppComponent]
