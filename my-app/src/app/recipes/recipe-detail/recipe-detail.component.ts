@@ -18,7 +18,6 @@ export class RecipeDetailComponent implements OnInit {
     this.route.params.subscribe((params:Params) => {
       this.id = +params['id'];
       this.recipe = this.recipeService.getRecipeById(this.id);
-      //this.recipe = this.recipeService.getRecipeById(params['id']);
     })
   }
   addToShoppinglist() {
@@ -27,6 +26,7 @@ export class RecipeDetailComponent implements OnInit {
     })
   }
   editRecipe() {
-    this.router.navigate([''])
+    this.router.navigate(['edit'], {relativeTo:this.route});
+    //this.router.navigate(['../', this.id, 'edit'], {relativeTo:this.route});
   }
 }
