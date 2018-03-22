@@ -18,6 +18,8 @@ import { RecipeService } from './recipes/recipes.service';
 import { ShoppingListService } from './shopping-list/shoppinglist.service';
 
 import { Routes, RouterModule } from '@angular/router';
+import { HttpModule } from '@angular/http';
+import {DataStorageService} from './shared/data-storage.service';
 
 const appRoutes: Routes = [
   {path: '', redirectTo: '/recipes', pathMatch:'full'},
@@ -46,10 +48,12 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     FormsModule,
+
     ReactiveFormsModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    HttpModule
   ],
-  providers: [RecipeService, ShoppingListService],
+  providers: [RecipeService, ShoppingListService, DataStorageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
