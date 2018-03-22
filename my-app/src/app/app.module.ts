@@ -20,6 +20,8 @@ import { ShoppingListService } from './shopping-list/shoppinglist.service';
 import { Routes, RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
 import {DataStorageService} from './shared/data-storage.service';
+import { SignupComponent } from './auth/signup/signup.component';
+import { SigninComponent } from './auth/signin/signin.component';
 
 const appRoutes: Routes = [
   {path: '', redirectTo: '/recipes', pathMatch:'full'},
@@ -43,7 +45,9 @@ const appRoutes: Routes = [
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    DropdownDirective
+    DropdownDirective,
+    SignupComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
