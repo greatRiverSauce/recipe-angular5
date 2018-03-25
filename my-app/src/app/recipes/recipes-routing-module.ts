@@ -7,7 +7,7 @@ import { RecipeStartComponent } from '../recipes/recipe-start/recipe-start.compo
 import { RecipeDetailComponent } from '../recipes/recipe-detail/recipe-detail.component';
 
 const recipesRoutes: Routes = [
-  {path: 'recipes', component: RecipesComponent, children: [
+  {path: '', component: RecipesComponent, children: [
     {path: '', component:RecipeStartComponent, pathMatch:'full'},
     {path: 'new', component: RecipeEditComponent, canActivate:[AuthGuard]},
     {path: ':id', component:RecipeDetailComponent},
@@ -20,6 +20,9 @@ const recipesRoutes: Routes = [
   ],
   exports:[
     RouterModule
+  ],
+  providers: [
+    AuthGuard
   ]
 })
 export class RecipesRoutingModule{
