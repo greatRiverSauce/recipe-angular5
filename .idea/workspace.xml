@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f2fcf79-d26e-47e4-ae6a-61dd3413e7f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/app/core/core.module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/app/core/header/header.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/my-app/src/app/header/header.component.css" afterPath="$PROJECT_DIR$/my-app/src/app/auth/auth-routing.module.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/my-app/src/app/header/header.component.html" afterPath="$PROJECT_DIR$/my-app/src/app/core/header/header.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/my-app/src/app/header/header.component.ts" afterPath="$PROJECT_DIR$/my-app/src/app/core/header/header.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/app-routing.module.ts" afterPath="$PROJECT_DIR$/my-app/src/app/app-routing.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/app.module.ts" afterPath="$PROJECT_DIR$/my-app/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/auth/auth.module.ts" afterPath="$PROJECT_DIR$/my-app/src/app/auth/auth.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/recipes/recipes-routing-module.ts" afterPath="$PROJECT_DIR$/my-app/src/app/recipes/recipes-routing-module.ts" />
     </list>
     <ignored path="recipe-angular5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recipes-routing-module.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recipes-routing-module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/app/recipes/recipes-routing-module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -52,6 +43,16 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/app/app-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,10 +116,10 @@
         <option value="$PROJECT_DIR$/my-app/src/app/auth/auth-routing.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/my-app/src/app/core/header/header.component.ts" />
-        <option value="$PROJECT_DIR$/my-app/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/recipes/recipes-routing-module.ts" />
         <option value="$PROJECT_DIR$/my-app/src/app/core/core.module.ts" />
+        <option value="$PROJECT_DIR$/my-app/src/app/app-routing.module.ts" />
       </list>
     </option>
   </component>
@@ -132,8 +133,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="702" />
-    <option name="width" value="578" />
+    <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -474,18 +474,18 @@
       <workItem from="1521735009740" duration="236000" />
       <workItem from="1521738919861" duration="4774000" />
       <workItem from="1521779637086" duration="547000" />
-      <workItem from="1521814448002" duration="14075000" />
+      <workItem from="1521814448002" duration="14404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54835000" />
+    <option name="totallyTimeSpent" value="55164000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="702" y="0" width="578" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28892735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13046876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -897,16 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/app/core/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -950,6 +940,14 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
