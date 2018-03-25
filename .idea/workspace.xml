@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f2fcf79-d26e-47e4-ae6a-61dd3413e7f7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/app/app-routing.module.ts" afterPath="$PROJECT_DIR$/my-app/src/app/app-routing.module.ts" />
-    </list>
+    <list default="true" id="4f2fcf79-d26e-47e4-ae6a-61dd3413e7f7" name="Default" comment="" />
     <ignored path="recipe-angular5.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -474,12 +472,12 @@
       <workItem from="1521735009740" duration="236000" />
       <workItem from="1521738919861" duration="4774000" />
       <workItem from="1521779637086" duration="547000" />
-      <workItem from="1521814448002" duration="14404000" />
+      <workItem from="1521814448002" duration="14651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55164000" />
+    <option name="totallyTimeSpent" value="55411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
