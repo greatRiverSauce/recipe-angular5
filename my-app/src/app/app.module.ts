@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -17,22 +17,14 @@ import { DropdownDirective } from "./shared/dropdown.directive";
 import { RecipeService } from './recipes/recipes.service';
 import { ShoppingListService } from './shopping-list/shoppinglist.service';
 
-import { Routes, RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
 import {DataStorageService} from './shared/data-storage.service';
 import { SignupComponent } from './auth/signup/signup.component';
 import { SigninComponent } from './auth/signin/signin.component';
+import { AuthService } from './auth/auth.service';
+import {AuthGuard} from "./auth/auth-guard.service";
+import Auth = firebase.auth.Auth;
 
-const appRoutes: Routes = [
-  {path: '', redirectTo: '/recipes', pathMatch:'full'},
-  {path: 'shoppingList', component: ShoppingListComponent},
-  {path: 'recipes', component: RecipesComponent, children: [
-    {path: '', component:RecipeStartComponent, pathMatch:'full'},
-    {path: 'new', component: RecipeEditComponent},
-    {path: ':id', component:RecipeDetailComponent},
-    {path: ':id/edit', component: RecipeEditComponent}
-  ]}
-];
 @NgModule({
   declarations: [
     AppComponent,
@@ -54,10 +46,10 @@ const appRoutes: Routes = [
     FormsModule,
 
     ReactiveFormsModule,
-    RouterModule.forRoot(appRoutes),
+    AppRoutingModule,
     HttpModule
   ],
-  providers: [RecipeService, ShoppingListService, DataStorageService],
+  providers: [RecipeService, ShoppingListService, DataStorageService, AuthService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
