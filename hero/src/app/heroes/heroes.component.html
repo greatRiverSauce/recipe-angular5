@@ -1,0 +1,14 @@
+
+<h2>My Heroes</h2>
+<button (click)="onSave()">Save Data</button>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes"
+      [class.selected]="hero === selectedHero"
+      style="cursor: pointer">
+    <a routerLink="/heroes/{{hero.id}}">
+      <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </a>
+  </li>
+</ul>
+<button (click)="onSave()">Save Hereos</button>
+<app-hero-detail></app-hero-detail>
